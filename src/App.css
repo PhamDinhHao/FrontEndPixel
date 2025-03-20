@@ -41,7 +41,6 @@
   color: #888;
 }
 
-/* Thêm các style mới cho ProductUpload component */
 .upload-area {
   cursor: pointer;
   transition: all 0.3s ease;
@@ -69,7 +68,6 @@
   overflow: hidden;
 }
 
-/* Override một số style mặc định của Bootstrap nếu cần */
 .container-fluid {
   padding-right: 15px;
   padding-left: 15px;
@@ -80,5 +78,4 @@
 }
 
 .custom-product-upload {
-  /* Đặt tất cả CSS liên quan đến ProductUpload component ở đây */
 }

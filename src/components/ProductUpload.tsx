@@ -115,7 +115,6 @@ const ProductUpload: React.FC = () => {
     return (
         <Container fluid className="bg-light min-vh-100 py-5 d-flex align-items-center custom-product-upload">
             <Container>
-                {/* Header Section */}
                 <Row className="mb-5">
                     <Col className="text-center">
                         <h1 className="display-4 mb-4">Product Management</h1>
@@ -123,7 +122,6 @@ const ProductUpload: React.FC = () => {
                     </Col>
                 </Row>
 
-                {/* Upload Section */}
                 <Row className="mb-5 justify-content-center">
                     <Col lg={8} xl={6}>
                         <Card className="border-0 shadow-lg">
@@ -208,7 +206,6 @@ const ProductUpload: React.FC = () => {
                     </Col>
                 </Row>
 
-                {/* Products List Section */}
                 <Row className="mb-5">
                     <Col>
                         <div className="d-flex align-items-center justify-content-center mb-4">
@@ -246,7 +243,6 @@ const ProductUpload: React.FC = () => {
                     </Col>
                 </Row>
 
-                {/* Selfie Upload Section */}
                 {selectedProduct && (
                     <Row className="justify-content-center mb-5">
                         <Col lg={8} xl={6}>
@@ -323,7 +319,6 @@ const ProductUpload: React.FC = () => {
                     </Row>
                 )}
 
-                {/* Processed Image Result */}
                 {processedImage && (
                     <Row className="justify-content-center">
                         <Col lg={8} xl={6}>
